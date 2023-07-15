@@ -1,0 +1,96 @@
+body{
+    /* background-color: rgb(56, 53, 53) !important; */
+}
+.logo{
+    height: 106px;
+    width: 300px;
+margin: -28px;
+}
+
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+font-size: 28px;
+font-weight: normal;
+line-height: 32px;
+width: 500px;
+}
+
+
+
+.loginp{
+    /* height: 106px;
+margin: -28px; */
+padding-left: 30px;
+padding-right: 30px;
+}
+.bggray{
+    padding-top: 70px !important;
+padding-left: 125px !important;
+background-color: #00000021 !important;
+padding-bottom: 30px !important;
+}
+.hrwidth{
+    width: 100px;
+}
+.height_10{
+    height: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt_20{
+    padding-top: 20px;
+}
+hr{
+    color: black;
+    size: 10px;
+}
+
+
+/* main */
+.bg{
+    background-color: rgba(28, 11, 11, 0.2);
+}
+.stories h4{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+.stories h4 a:hover{
+    color: rgb(82, 82, 228);
+}
+/* .stories h4 a:active{
+    color: rgb(82, 82, 228);
+} */
+.reels h4{
+    padding-top: 40px;
+    text-align: center;
+}
+.reels h4:hover{
+    color: rgb(82, 82, 228);
+}
+
+
+.post{
+    /* text-align: center; */
+
+}
+.card1{
+    width: 457px;
+    margin-left: 101px;
+}
+
+.comments{
+    padding-top: 40px;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    color: black;
+
+}
+.comments .a2{
+    margin-left: 84px;
+}
+.comments .a3{
+    margin-left: 76px;
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\PC\Desktop\RailWorld\Sts-Project\.metadata\.plugins\org.eclipse.jdt.core
+2080575008.index
+1865797976.index
+557076790.index

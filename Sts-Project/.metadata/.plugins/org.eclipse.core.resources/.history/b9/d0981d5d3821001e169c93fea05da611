@@ -1,0 +1,40 @@
+package com.test;
+
+public class Employee {
+	
+	  int empid= 1001;
+	  String empname= "Rahul";
+	  double empsal= 886869;
+	  String empaddr="hyd";
+	
+	 static int empid1= 1001;
+	 static String empname1= "Rahul";
+	 static double empsal1= 886869;
+	 static String empaddr1="hyd";
+	
+	  public void display() {
+		  System.out.println("Employee Details");
+	       System.out.println("================");
+	       System.out.println("Emplyoyee Id: "+empid);
+	       System.out.println("Emplyoyee Name: "+empname);
+	       System.out.println("Emplyoyee Salrary: "+empsal);
+	       System.out.println("Emplyoyee Address: "+empaddr);
+	  
+	  }
+	  public static void display1() {
+		  System.out.println("Employee Details");
+	       System.out.println("================");
+	       System.out.println("Emplyoyee Id: "+empid1);
+	       System.out.println("Emplyoyee Name: "+empname1);
+	       System.out.println("Emplyoyee Salrary: "+empsal1);
+	       System.out.println("Emplyoyee Address: "+empaddr1);
+	  
+	  }
+
+	public static void main(String[] args) {
+	
+	  Employee e1=	new Employee();
+      e1.display();
+	}
+
+}

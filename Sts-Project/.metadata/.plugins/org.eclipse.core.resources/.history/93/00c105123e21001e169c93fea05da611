@@ -1,0 +1,75 @@
+package com.test;
+
+public class Employee {
+	
+	  int empid= 1001;
+	  String empname= "Rahul";
+	  double empsal= 886869;
+	  String empaddr="hyd";
+	  
+	  
+	  
+	//static vraiable
+	 static int empid1= 1002;
+	 static String empname1= "Rahul kumar";
+	 static double empsal1= 886869;
+	 static String empaddr1="bsp";
+	
+	 
+
+	  int empid2;
+	  String empname2;
+	  double empsal2;
+	  String empaddr2;
+	  //Employee has Pincode
+	  Pincode pincode;
+	  
+	  public void display() {
+		  System.out.println("Employee Details");
+	       System.out.println("================");
+	       System.out.println("Emplyoyee Id: "+empid);
+	       System.out.println("Emplyoyee Name: "+empname);
+	       System.out.println("Emplyoyee Salrary: "+empsal);
+	       System.out.println("Emplyoyee Address: "+empaddr);
+	  
+	  }
+	  public static void display1() {
+		  System.out.println("Employee Details2");
+	       System.out.println("================");
+	       System.out.println("Emplyoyee Id: "+empid1);
+	       System.out.println("Emplyoyee Name: "+empname1);
+	       System.out.println("Emplyoyee Salrary: "+empsal1);
+	       System.out.println("Emplyoyee Address: "+empaddr1);
+	  
+	  }
+	  
+	  //can not make a static refrence ro the non static varaiables
+//	  public static void display2() {
+//		  System.out.println("Employee Details");
+//	       System.out.println("================");
+//	       System.out.println("Emplyoyee Id: "+empid);
+//	       System.out.println("Emplyoyee Name: "+empname);
+//	       System.out.println("Emplyoyee Salrary: "+empsal);
+//	       System.out.println("Emplyoyee Address: "+empaddr);
+//	  
+//	  }
+	  public void display3() {
+		  System.out.println("Employee Details3");
+	       System.out.println("================");
+	       System.out.println("Emplyoyee Id: "+empid1);
+	       System.out.println("Emplyoyee Name: "+empname1);
+	       System.out.println("Emplyoyee Salrary: "+empsal1);
+	       System.out.println("Emplyoyee Address: "+empaddr1);
+	  
+	  }
+
+	public static void main(String[] args) {
+	
+	
+	  Employee e1=	new Employee();
+      e1.display();
+      display1();	
+      e1.display3();
+	}
+
+}
