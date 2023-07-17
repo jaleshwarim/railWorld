@@ -1,40 +1,29 @@
-<!DOCTYPE html>
+<!--Coded by Abhishek Bhoi-->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assest/img/fabicon.png" type="image/x-icon">
-    <title>Facebook</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script> -->
-    <link rel="stylesheet" href="./main.css">
-    <script src="./main.js"></script>
-   
-
-     <!--font awsome-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--font awsome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-  integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-   <!-- css link -->
-    <link rel="stylesheet" href="./assest/css/style.css">       
-
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--main css-->
+  <link rel="stylesheet" href="./main.css">
+  <title>facebook</title>
 </head>
-<body>
-  <!-- navbar abhishek -->
+
+<body class="bg-gray">
   <div class="bg-white d-flex aling-items-center fixed-top shadow" style="min-height: 56px; z-index: 5">
     <div class="container-fluid">
       <div class="row aling-items-centre">
         <!--search-->
         <div class="col d-flex aling-items-center">
           <!--logo-->
-          <!-- <i class="fa-brands fa-facebook text-primary" style="font-size: 3rem"></i> -->
+          <i class="fa-brands fa-facebook text-primary" style="font-size: 3rem"></i>
           <!--search bar-->
           <div class="input-group ms-2">
             <!--mobile-->
@@ -42,17 +31,15 @@
               type="button" data-bs-auto-close="outside">
               <div class="input-group-text bg-gray border-0 rounded-circle" style="min-height: 40px;">
                 <i class="fa-solid fa-magnifying-glass text-muted"></i>
-                 
+
               </div>
             </span>
 
             <!--desktop-->
             <span class="input-group-prepend d-none d-lg-block" id="searchMenu" data-bs-toggle="dropdown"
               aria-expanded="false" type="button" data-bs-auto-close="outside">
-              <img src="assest/img/fabicon.png" alt="" style="height: 40px; width: 43px;">
-              <div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 230px; margin-top: -36px; margin-left: 47px;">
-                <!-- <i class="fa-solid fa-magnifying-glass me-2 text-muted"></i> -->
-               
+              <div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 230px;">
+                <i class="fa-solid fa-magnifying-glass me-2 text-muted"></i>
                 <p class="m-0 fs-7 text-muted">Search facebook</p>
               </div>
             </span>
@@ -99,7 +86,7 @@
               <i class="fas fa-store text-muted fs-4"></i>
             </button>
           </div>
-          <!--group-->
+          <!--group-->\
           <div class="mx-4 nav__btn">
             <button type="button" class="btn px-4">
               <i class="fas fa-users position -relative text-muted fs-4">
@@ -340,7 +327,8 @@
             </li>
             <!--search-->
             <li class="p-1">
-              <div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 230px;">
+              <div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 230px;
+      ">
                 <i class="fas fa-search me-2 text-muted"></i>
                 <input type="text" class="form-control rounded-pill border-0 bg-gray" placeholder="" />
 
@@ -364,236 +352,185 @@
       </div>
     </div>
   </div>
+  <!-----Main----->
+  <div class="container-fluid">
+    <div class="row justify-content-evenly">
+      <!----Slide bar----->
+      <!-- <div class="col-12 col-lg-3"> 
+      <div class="d-none d-xxl-block h-100 fixed-top overflow-hidden" style="max-width: 360px;width: 100%;
+      z-index: 4;">
+      <ul class="navbar-nav mt-4 ms-3 d-flex flex-column pb-5 mb-5" style="padding-top: 56px;"> -->
+      <!--top-->
+      <!--avatar-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="https://source.unsplash.com/collection/happy-people" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
 
-
-
-  <!-- Jaleshwari -->
-    <!-- main section -->
-    <div class="main">
-      <div class="row">
-        <!-- Side bar -->
-        <div class="col-sm-3 col-md-3 col-xl-3">
-          <ul class="list-group sticky-top left-side-manu">
-            <li class="list-group-item"><i  ></i> Jaleshwari Masram</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/friend.png" alt=""> Friends</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/events.png" alt=""> Events</li>
-            <!-- <li class="list-group-item"><img src="assest/img/bookmark/save.png" alt=""> Feeds</li> -->
-            <li class="list-group-item"><img src="assest/img/bookmark/memories.png" alt=""> Memories</li>
-            <li class="list-group-item">`<img src="assest/img/bookmark/foundrais.png" alt=""> Funraisers</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/group.png" alt="">Group</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/marketplace.png" alt=""> Marketplace</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/video.png" alt=""> Watch</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/save.png" alt=""> Saved</li>
-            <li class="list-group-item"><img src="assest/img/bookmark/playgame.png" alt=""> Game</li>
-            <div class="btn-group">
-              <button type="button" class="btn hrwidth dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                See more
-              </button>
-              <div class="dropdown-menu dropdown-menu-left">
-                <button class="dropdown-item" type="button">Messenger</button>
-                <button class="dropdown-item" type="button"><img src="assest/img/bookmark/livevideo.png" alt=""> Live video</button>
-                <button class="dropdown-item" type="button">Blood Donation</button>
-              </div>
-              
             </div>
-          </ul>
-        </div>
-
-        <!-- main section Jaleswari Masram -->
-          
-             
-         <!-- main section -->
-        <div class="col-sm-6 col-md-6 col-xl-6">
-
-          <div class="main-content">
-            <div class="bg">   
-              <div class="row">      
-               <div class="col-sm-3 col-md-3 col-xl-6">
-                 <div class="stories">
-                <h4><a href="#">Stories</a> </h4>
-              </div>
-              </div>
-               <div class="col-sm-3 col-md-3 col-xl-6">
-                  <div class="reels">
-                    <h4> Reels</h4>
-               </div>
-               </div> 
-            </div>  
-          </div>
-
-
-            <div class="story-gallery">
-              <div class="story story1">
-                <img src="assest/img/add.png" >
-                <p>Create Story</p>
-              </div>
-
-              <div class="story story2">
-                <img src="assest/img/story/story1.jpg" >
-                <p>Ronita</p>
-              </div>
-
-              <div class="story story3">
-                <img src="assest/img/story/story2.jpg" >
-                <p>Pihu</p>
-              </div>
-
-              <div class="story story4">
-                <img src="assest/img/story/story3.jpg" >
-                <p>Abhi</p>
-              </div>
-
-              <div class="story story5">
-                <img src="assest/img/story/flower1.jpg  " >
-                <p>Mr. Jhonson</p>
-              </div>
-
-             
-
-              
+            <div>
+              <p class="m-0">Rail World</p>
             </div>
-           </div> 
+          </a>
 
-          
+        </li> -->
+      <!--t1-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="friend.jpg" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
 
-            
-           <div class="write-post-container">
-             <div class="user-profile">
-                <img src="assest/img/user.png">
-                 <div>
-                  <p>Rail World</p>
-                  <small>Public   <i class="fas fa-caret-down"></i></small>
-                 </div>
-             </div>
+            </div>
+            <div>
+              <p class="m-0">friends</p>
+              <i class="fas fa-circlr text-primary" style="font-size: 5rem;"></i>
+              <span class="fs-7 text-primary">3 new</span>
+            </div>
+          </a>
 
-             <div class="post-input-container">
-                  <textarea row="3" placeholder="Whats your mind, Rail World"></textarea>
-                    <div class="add-post-link">
-                      <a href="#"><img src="assest/img/videos.png">Live Video</a>
-                      <a href="#"><img src="assest/img/photos.png">Photos/Video</a>
-                      <a href="#"><img src="assest/img/activity.png">Feling/Activity</a>
-                    </div>
-            
-              </div>
-           </div>
+        </li> -->
+      <!--t2-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="groups.png" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
 
+            </div>
+            <div>
+              <p class="m-0">Groups</p>
+              <i class="fas fa-circlr text-primary" style="font-size: 5rem;"></i>
+              <span class="fs-7 text-primary">1 new</span>
+            </div> -->
+      <!-- </a>
 
+        </li> -->
+      <!--t3-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="pages.jpg" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
 
+            </div>
+            <div>
+              <p class="m-0">Pages</p>
+            </div>
+          </a>
 
+        </li> -->
+      <!--t4-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="marketplace.png" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
 
-          <div class="bg">
-            <div class="row">
-              
-               <div class="post">
-                <div  class="col-sm-12 col-md-12 col-xl-12">
-                  <div class="card card1" >
-                    <div class="card-body">
-                      <h5 class="card-title"><img src="/assest/img/user1.png" alt="">   RailWorld</h5>
-                      <!-- <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p> -->
-                      
-                    </div>
-                    <img class="card-img-bottom" src="assest/img/user.png" alt="Card image" style="width:100%">
-                    <div class="col-xl-12 comments">
-                      <a href="#" class="btn text-primary a1">Like</a>
-                      <a href="#" class="btn text-primary a2">Comment</a>
-                      <a href="#" class="btn text-primary a3">Share</a>
-                    
-                    </div>
-                    
-                    
+            </div>
+            <div>
+              <p class="m-0">Marketplace</p>
+            </div>
+          </a>
+
+        </li> -->
+      <!--t5-->
+      <!-- <li class="dropdown-item p-1 rounded">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center">
+            <div class="p-2">
+              <img src="4406124.png" alt="avatar" class="rounded circlr
+              me-2" style="width: 38px;height: 38px;object-fit: cover;">
+
+            </div>
+            <div>
+              <p class="m-0">Watch</p>
+            </div>
+          </a>
+
+        </li> -->
+      <!--see more-->
+      <!-- <li class="p-1" type="button">
+          <div id="accordionExample">
+            <div> -->
+      <!--see more-->
+      <!-- <div>
+                <div class="d-flex align-item-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="p-2">
+                    <i class="fas fa-chevron-down rounded-circle p-2" style="background-color: #d5d5d5;
+                    !important"></i>
                   </div>
-
-
-                  <div class="card card1" >
-                    <div class="card-body">
-                      <h5 class="card-title"><img src="/assest/img/user1.png" alt="">   RailWorld</h5>
-                      <!-- <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p> -->
-                      
-                    </div>
-                    <img class="card-img-bottom" src="assest/img/user.png" alt="Card image" style="width:100%">
-                    <div class="col-xl-12 comments">
-                      <a href="#" class="btn text-primary a1">Like</a>
-                      <a href="#" class="btn text-primary a2">Comment</a>
-                      <a href="#" class="btn text-primary a3">Share</a>
-                    
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card card1" >
-                    <div class="card-body">
-                      <h5 class="card-title"><img src="/assest/img/user1.png" alt="">   RailWorld</h5>
-                      <!-- <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p> -->
-                      
-                    </div>
-                    <img class="card-img-bottom" src="assest/img/user.png" alt="Card image" style="width:100%">
-                    <div class="col-xl-12 comments">
-                      <a href="#" class="btn text-primary a1">Like</a>
-                      <a href="#" class="btn text-primary a2">Comment</a>
-                      <a href="#" class="btn text-primary a3">Share</a>
-                    
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card card1" >
-                    <div class="card-body">
-                      <h5 class="card-title"><img src="/assest/img/user1.png" alt="">   RailWorld</h5>
-                      <!-- <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p> -->
-                      
-                    </div>
-                    <img class="card-img-bottom" src="assest/img/user.png" alt="Card image" style="width:100%">
-                    <div class="col-xl-12 comments">
-                      <a href="#" class="btn text-primary a1">Like</a>
-                      <a href="#" class="btn text-primary a2">Comment</a>
-                      <a href="#" class="btn text-primary a3">Share</a>
-                    
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card" >
-                    <div class="card-body">
-                      <h5 class="card-title"><img src="/assest/img/user1.png" alt="">   RailWorld</h5>
-                      <!-- <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p> -->
-                      
-                    </div>
-                    <img class="card-img-bottom" src="assest/img/user.png" alt="Card image" style="width:100%">
-                    <div class="col-xl-12 comments">
-                      <a href="#" class="btn text-primary a1">Like</a>
-                      <a href="#" class="btn text-primary a2">Comment</a>
-                      <a href="#" class="btn text-primary a3">Share</a>
-                    
-                    </div>
-                    
-                    
+                  <div>
+                    <p class="m-2">See More</p>
                   </div>
                 </div>
+              </div> -->
+      <!--content-->
+      <!-- <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div> -->
+      <!--item 1-->
+      <!-- <div class="d-flex align-item-center dropdown-item p-0 m-0">
+                    <div class="p-2">
+                    <img src="Events.jpg" alt="from fb"
+                    class="rounded-circle" style="width: 38px;height: 38px;object-fit: cover;">
+                    </div>
+
+              
+                  <div>
+                    <p class="m-3">Events</p>
+                  </div>
+                   -->
+      <!--</div>-->
+      <!--item 2-->
+      <!-- <div class="d-flex align-item-center dropdown-item p-0 m-0">
+                  <div class="p-2">
+                  <img src="feed.jpg" alt="from fb"
+                  class="rounded-circle" style="width: 38px;height: 38px;object-fit: cover;">
+                  </div>
+
+            
+                <div>
+                  <p class="m-3">Feeds</p>
+                </div>
                 
-               </div>
-               <hr>
-               
+              </div> -->
 
-               </div>
+      <!-- </div>
             </div>
+           </div>
+          </div>
+        </li> 
+         -->
 
-        </div>
 
 
+      <!--shortcut6-->
+      <hr class="m-0">
+      <!--heading-->
+      <div class="d-flex align-items-center justify-content-between mt-2 text-muted">
+        <h4 class="m-0 text-muted">Your Shortcuts</h4>
+        <p class="m=0 text-primary me-1">Edit</p>
 
-
-
-        <div class="col-sm-3 col-md-3 col-xl-3">
-
-          <div class="practi">
-            <p>fuyfgufuf</p>
-         </div>
-        </div>
-
-        
       </div>
-    </div> 
-  
+
+      </ul>
+      <!--term-->
+    </div>
+  </div>
+  <!------Timeline------>
+  <div class="col-12 col-lg-6"></div>
+  <!-------ChatBar------->
+  <div class="col-12 col-lg-3"></div>
+  </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!--main js-->
+  <script src="./main.js"></script>
 
 </body>
+
 </html>
