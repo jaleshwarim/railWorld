@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppians' ,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(56, 53, 53) !important; */
+}
+.logo{
+    height: 106px;
+    width: 300px;
+ margin-top:80px;
+}
+
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+font-size: 28px;
+font-weight: normal;
+line-height: 32px;
+width: 500px;
+}
+
+
+
+.loginp{
+    /* height: 106px;
+margin: -28px; */
+margin-top: 81px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: #f5f0f008 !important;
+}
+.bggray{
+    padding-top: 70px !important;
+padding-left: 125px !important;
+background-color: #f5f0f0fa !important;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-bottom: 30px !important;
+}
+.hrwidth{
+    width: 100px;
+}
+.height_10{
+    height: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt_20{
+    padding-top: 20px;
+}
+.pt_70{
+    padding-top: 70px;
+}
+
+hr{
+    color: black;
+    width: 249px;
+}
+@media (min-width: 576px){
+.col-sm-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  padding-top:10px
+}
+}
+.btn-log-in{
+    border-radius:10px;
+    /* margin-left: 67px; */
+    margin-top: 10px;
+}
+
+.btn-na{
+    background-color: #36a420;
+border-color: #36a420;
+border-radius:10px;
+margin-left: 26px;
+}

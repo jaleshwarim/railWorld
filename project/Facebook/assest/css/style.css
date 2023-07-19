@@ -153,9 +153,9 @@ hr{
 }
 
 .story1{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("assest/img/story/story5.jpg" );  
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("./../assest/img/story/story5.jpg" );  
 }
-.story2{ background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("assest/img/story/story1.jpg" ); }
+.story2{ background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("./../assest/img/story/story1.jpg" ); }
 .story3{ background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("assest/img/story/story2.jpg" ); }
 .story4{ background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url("assest/img/story/story3.jpg" ); }
 .story5{ background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),  url("assest/img/story/story4 .jpg" ); }
@@ -356,6 +356,7 @@ hr{
     font-size: 10px;
     padding: 4px 0;
 
+    
 }
 .event img{
     width: 50%;
