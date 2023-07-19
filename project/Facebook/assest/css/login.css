@@ -57,7 +57,7 @@ padding-bottom: 30px !important;
 
 hr{
     color: black;
-    width: 249px;
+    width: 300px;
 }
 @media (min-width: 576px){
 .col-sm-6 {
@@ -76,5 +76,5 @@ hr{
     background-color: #36a420;
 border-color: #36a420;
 border-radius:10px;
-margin-left: 26px;
+margin-left: 58px;
 }
