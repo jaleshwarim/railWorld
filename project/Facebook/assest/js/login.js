@@ -22,7 +22,7 @@ form.addEventListener("submit", (e)=>{
 //function for checking username and password
 
 function authentication(email,password){
-    if(email === "railworld@gmail.com" && password ==="1234"){
+    if(email === "info@railworld.co.in" && password ==="1234"){
         return true
     }
     else

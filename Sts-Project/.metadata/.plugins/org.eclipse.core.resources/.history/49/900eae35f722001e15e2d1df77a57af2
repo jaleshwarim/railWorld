@@ -1,0 +1,26 @@
+package com.test;
+import java.util.*;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Animal Name :");
+		int aniName=sc.next();
+		System.out.println();
+		System.out.println("Enter Animal Color :");
+		int aniColor= sc.next();
+		System.out.println("Enter Animal Age :");
+		int aniAge= sc.nextInt();
+		System.out.println("Enter Animal No of leg :");
+		int aniLeg=sc.nextInt();
+		System.out.println("Enter Animal Wieght :");
+		int aniWie=sc.nextInt();
+		
+		
+		Animal a=new Animal();
+	}
+}
