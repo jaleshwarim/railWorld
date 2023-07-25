@@ -27,6 +27,7 @@ public class Main {
 		
 		hset.add(new Student(102, null, 507));
 		hset.add(new Student(102, null, 507));
+		hset.add(new Student(101, "rahul", 509));
 		
 		
 		for(Student s:hset) {
