@@ -13,6 +13,16 @@ body{
     width: 300px;
  margin-top:80px;
 }
+.bggray{
+    padding-top: 70px !important;
+padding-left: 125px !important;
+background-color: #f5f0f0fa !important;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-bottom: 30px !important;
+}
+.btn-log-in{
+  width: 62%;
+}
 
 h2{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
@@ -21,6 +31,14 @@ font-weight: normal;
 line-height: 32px;
 width: 500px;
 }
+#email{
+    width:  120%;
+}
+#password{
+    width:  120%;
+}
+
+
 
 
 
@@ -32,13 +50,7 @@ padding-left: 30px;
 padding-right: 30px;
 background-color: #f5f0f008 !important;
 }
-.bggray{
-    padding-top: 70px !important;
-padding-left: 125px !important;
-background-color: #f5f0f0fa !important;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-padding-bottom: 30px !important;
-}
+
 .hrwidth{
     width: 100px;
 }
@@ -77,4 +89,31 @@ hr{
 border-color: #36a420;
 border-radius:10px;
 margin-left: 58px;
+}
+
+
+@media only screen and (max-width:390px) {
+
+    .loginp {
+        padding-top: 0px;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    .bggray{
+        padding-top: 36px !important;
+        padding-left: 38px !important;
+    }
+    #email{
+        width:  100%;
+    }
+    #password{
+        width:  100%;
+    }
+    .btn-log-in{
+        width: 100%;
+      }
 }
