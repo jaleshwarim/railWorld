@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Day_10_Collections</name>
+	<name>Day_10_Collections_List</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1690359453120</id>
+			<id>1690359453138</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
