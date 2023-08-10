@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Collections</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+<<<<<<< HEAD:Sts-Project/Assignment_Interface/.project
+<<<<<<< HEAD
+			<id>1690274140072</id>
+=======
+			<id>1690340949368</id>
+>>>>>>> b9222cb89d603cad503b831e10b8f12d3c416e43
+=======
+			<id>1690359453069</id>
+>>>>>>> 936afdb8907f9d5eeae9d2a73dbc8ffab279cac4:Collections/.project
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
